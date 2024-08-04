@@ -8,6 +8,6 @@
   "cleanup": true,
   "theme": "cards",
   "css": "./custom.css",
-  "footer": "Copyright Elenor Howick",
+  "footer": "Copyright Eleanor Howick",
   "usage-stats": false
 }
