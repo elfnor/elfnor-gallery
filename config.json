@@ -2,7 +2,7 @@
   "input": "./gallery",
   "output": "./build_output",
   "title": "elfnor's gallery",
-  "theme": "flow",
+  "theme-path": "./gallery-theme",
   "sort-albums-by": "title",
   "sort-media-by": "filename",
   "download-photos": "copy",
