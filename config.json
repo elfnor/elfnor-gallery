@@ -7,7 +7,6 @@
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
-  "theme": "flow",
   "css": "./custom.css",
   "footer": "Copyright Eleanor Howick",
   "usage-stats": false
