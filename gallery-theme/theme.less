@@ -4,12 +4,14 @@
 // -----------------------------------
 
 @body-background:  #111;
-@header-background:  #111;
-@header-foreground: #c14c4c;
+@header-background:  #c14c4c;
+@header-background-light: #711;
+@header-foreground: #e6eef0;
 @text-color: #f0f0f0;
 @borders: #f0f0f0;
 @mobile-trigger: 400px;
 @slider-height: 400px;
+
 
 // -----------------------------------
 // Generic styles
@@ -32,7 +34,7 @@ html, body {
 body {
   background: @body-background;
   color: @text-color;
-  font-family: open sans, sans-serif;
+  font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 1em;
@@ -71,10 +73,20 @@ a {
 // -----------------------------------
 
 header {
+ 
   background: @header-background;
   color: @header-foreground;
-  font-size: 1.8em;
-  margin-bottom: 1.1em;
+  height: 80px;
+  font-size: 20px;
+  font-family: 'Rock Salt', cursive;
+  padding-top:20px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+
+  background-image:
+    linear-gradient(
+      @header-background, @header-background-light
+    );
 }
 
 h1 {

@@ -1,7 +1,7 @@
 {
   "input": "./gallery",
   "output": "./build_output",
-  "title": "elfnor's gallery",
+  "title": "Look Think Make Gallery",
   "theme-path": "./gallery-theme",
   "sort-albums-by": "title",
   "sort-media-by": "filename",
